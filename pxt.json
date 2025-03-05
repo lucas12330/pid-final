@@ -1,0 +1,35 @@
+{
+    "name": "PID [FINAL]",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "maqueen": "github:dfrobot/pxt-maqueen#v1.7.14",
+        "datalogger": "*",
+        "neopixel": "github:microsoft/pxt-neopixel#v0.7.6",
+        "servo": "*",
+        "pxt-sonar": "github:microsoft/pxt-sonar#v0.0.6"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v7.0.57",
+        "tag": "v7.0.57",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/1a9e10ee33883477990f6bc7451dae38318586e3",
+        "target": "7.0.57",
+        "pxt": "11.1.13",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "pyprj"
+}
